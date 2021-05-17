@@ -1,0 +1,19 @@
+./stop.sh
+namespace=${PWD##*/}
+
+echo $namespace
+
+echo '构建运行环境'
+docker pull hayd/centos-deno
+
+echo '获取配置文件'
+echo '\n'
+echo '启动docker'
+docker_id=$(docker run --name $namespace -itd hayd/centos-deno:latest bash)
+echo $docker_id
+docker cp -a ./  "$docker_id":/home/source
+# docker cp ./config.yaml "$docker_id":/home/source/config.yaml
+# docker cp ./coin.yaml "$docker_id":/home/source/coin.yaml
+docker exec -d $docker_id bash -c "cd /home/source && export RUN_ENV='production' && deno run --unstable -A ./src/main.ts"
+echo "启动完成\n"
+

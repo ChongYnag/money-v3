@@ -1,0 +1,12 @@
+#!/bin/bash
+WHICH_DENO=`which deno`
+if [ -z $WHICH_DENO ]
+then
+    echo "系统未安装deno"
+    echo "正在安装"
+    curl -fsSL https://deno.land/x/install/install.sh | sh
+else
+    echo "当前开发环境:"
+    echo `deno --version`
+fi
+export RUN_ENV='development' && deno run --watch --unstable -A ./src/main.ts
