@@ -1,8 +1,0 @@
-api:
-  key: '10000'
-  secret: '1111'
-  url: '币安地址'
-
-dingding:
-  token: ''
-  mobile: 
