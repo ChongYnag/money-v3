@@ -1,0 +1,12 @@
+---
+  symbol: "BTCUPUSDT"
+  grid_buy_price: 86.852
+  grid_sell_price: 92.224
+  profit_ratio: 3
+  double_throw_ratio: 3
+  step: 0
+  precision: 3
+  quantity: 
+    - 1.5
+    - 1.7
+    - 2

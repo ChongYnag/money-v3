@@ -1,0 +1,11 @@
+symbol: BTCSTUSDT
+grid_buy_price: 69
+grid_sell_price: 72.1
+profit_ratio: 3
+double_throw_ratio: 3
+step: 1
+precision: 3
+quantity:
+  - 0.2
+  - 0.3
+  - 0.4

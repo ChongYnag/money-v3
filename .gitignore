@@ -1,0 +1,8 @@
+.idea/
+.vscode/
+coin.yaml
+config.yaml
+node_modules/
+build/
+tmp/
+temp/
