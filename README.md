@@ -19,12 +19,27 @@ npm install
 npm install -g pm2
 ```
 ## 钉钉
+```bash
 钉钉机器人请添加以下四个关键词过滤:
 debug info warn error
+```
 
+## 新增数据持久化
+```bash
+用的mysql数据库
+用的是orm插件
+使用前需要 ormconfig.json里面配置好数据库地址以及用户名
+```
 
 ## 项目地址
 ```bash
-https://e.coding.net/jiangchongyang/money/money-v2.git
+https://github.com/ChongYnag/money-v3.git
 ```
-## 新增数据持久化
+
+## 纯属娱乐(忠告)
+```bash
+币市风险较大，投资需谨慎
+wx 89305141
+欢迎有想法的一起探讨
+```
+

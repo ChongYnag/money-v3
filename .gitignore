@@ -1,5 +1,6 @@
 .idea/
 .vscode/
+config.yaml
 node_modules/
 build/
 tmp/
