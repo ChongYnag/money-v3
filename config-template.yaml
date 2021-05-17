@@ -1,8 +1,0 @@
-api:
-  key: ''
-  secret: ''
-  url: 'https://api.binance.com'
-
-dingding:
-  token: ''
-  mobile: 18910121190
