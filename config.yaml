@@ -1,0 +1,8 @@
+api:
+  key: '10000'
+  secret: '1111'
+  url: '币安地址'
+
+dingding:
+  token: '钉钉机器人token'
+  mobile: 

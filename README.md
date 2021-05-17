@@ -1,4 +1,4 @@
-# money-v2
+# money-v3
 ## 开发前准备
 手动添加本地配置文件
 增加 coin/coin.yaml 
