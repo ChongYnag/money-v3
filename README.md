@@ -39,7 +39,7 @@ https://github.com/ChongYnag/money-v3.git
 ## 纯属娱乐(忠告)
 ```bash
 币市风险较大，投资需谨慎
-wx 89305141
+邮箱 89305141@qq.com
 欢迎有想法的一起探讨
 ```
 
